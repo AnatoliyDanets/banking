@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "name": "Privat",
+      "createDate": "Wed Apr 20 2022",
+      "category": "20",
+      "max": "200000",
+      "min": "36666.67",
+      "date": "6",
+      "isActive": true,
+      "id": 10
+    },
+    {
+      "name": "AlfaBank",
+      "createDate": "Wed Apr 20 2022",
+      "category": "10",
+      "max": "100000",
+      "min": "10833.33",
+      "date": "10",
+      "isActive": true,
+      "id": 11
+    },
+    {
+      "name": "AllaBank",
+      "createDate": "Tue Apr 19 2022",
+      "category": "10",
+      "max": "100000",
+      "min": "10833.33",
+      "date": "10",
+      "isActive": true,
+      "id": 12
+    },
+    {
+      "name": "KislayaBank",
+      "createDate": "Tue Apr 19 2022",
+      "category": "10",
+      "max": "1000000",
+      "min": "50000.00",
+      "date": "24",
+      "isActive": true,
+      "id": 13
+    }
+  ]
+}
