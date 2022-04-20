@@ -39,7 +39,9 @@ td {
   background-color: #fff7f7;
   padding: 3px;
 }
-
+.row-list{
+  height: 90px;
+}
 
 td::first-letter {
   text-transform: uppercase;
@@ -204,7 +206,7 @@ td::first-letter {
   font-weight: normal;
   font-size: 12px;
   letter-spacing: 0.01em;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   cursor: pointer;
 }
 .input-form-modal {
@@ -230,6 +232,11 @@ td::first-letter {
   fill: var(--accent-bg-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .select-form {
   height: 34px;
   width: 409.5px;
@@ -240,22 +247,4 @@ td::first-letter {
   display: flex;
   align-self: center;
   justify-content: center;
-}
-.name-icon {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  transform: translateY(-50%);
-}
-.user-tel-icon {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  transform: translateY(-50%);
-}
-.user-mail-icon {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  transform: translateY(-50%);
 }

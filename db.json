@@ -5,8 +5,8 @@
       "createDate": "Wed Apr 20 2022",
       "category": "20",
       "max": "200000",
-      "min": "36666.67",
-      "date": "6",
+      "min": "30",
+      "date": "12",
       "isActive": true,
       "id": 10
     },
@@ -15,30 +15,30 @@
       "createDate": "Wed Apr 20 2022",
       "category": "10",
       "max": "100000",
-      "min": "10833.33",
-      "date": "10",
+      "min": "20",
+      "date": "24",
       "isActive": true,
       "id": 11
     },
     {
-      "name": "AllaBank",
+      "name": "UkrsibBank",
       "createDate": "Tue Apr 19 2022",
       "category": "10",
       "max": "100000",
-      "min": "10833.33",
+      "min": "10",
       "date": "10",
       "isActive": true,
       "id": 12
     },
     {
-      "name": "KislayaBank",
-      "createDate": "Tue Apr 19 2022",
-      "category": "10",
-      "max": "1000000",
-      "min": "50000.00",
-      "date": "24",
+      "name": "OchadBank",
+      "createDate": "Wed Apr 20 2022",
+      "category": "20",
+      "max": "100000",
+      "min": "10",
+      "date": "6",
       "isActive": true,
-      "id": 13
+      "id": 14
     }
   ]
 }

@@ -21,27 +21,11 @@
           <th> Edit</th>  
         </tr>
       </thead>
-      <tbody class="column"></tbody>
+      <tbody class="row-info"></tbody>
     </table>
-    <button type="button" class="btn" data-modal-open>Create Note</button>
+    <button type="button" class="btn" data-modal-open>Create Bank</button>
 
-    <table class="transaction__history table-result">
-      <thead class="trans_head">
-        <tr>
-          <th><select name="bank"  class="sel">
-            <option value='Select Bank' disabled  selected="selected">Select Bank</option>
-          </select></th>
-          <th>Initial loan</th>
-          <th>Down payment</th>
-          <th>Result</th>
-        </tr>
-      </thead>
-      <tbody class="column2"><tr class="cell"><td></td>
-        <td><input type="number"/></td><td><input type="number"></td>
-        <td></td>
-      </tr> 
-    </table>
-    <button type='button' class='resBtn btn'>Result</button></tbody>
+  
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -62,7 +46,7 @@
         </button>
         <b class="modal-title">Create Bank</b>
         <form class="modal-form" autocomplete="off">
-          <label for="name" class="label-form-modal">BankName</label>
+          <label for="name" class="label-form-modal">Bank Name</label>
 
           <input
             type="text"
@@ -91,7 +75,14 @@
             class="input-form-modal"
             required
           />
-    
+          <label for="down payment" class="label-form-modal">Down payment %</label>
+
+          <select name="down" class="select-form">
+            <option value="10" selected="selected">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+          </select>
           <label for="mounth" class="label-form-modal">Credit Term</label>
 
           <select name="mounth" class="select-form">
@@ -124,8 +115,8 @@
             ></path>
           </svg>
         </button>
-        <b class="modal-title">Change Note</b>
-        <form method="post" class="modal-form1" autocomplete="off">
+        <b class="modal-title">Change Bank</b>
+        <form method="post"  class="modal-form modal-form1" autocomplete="off">
           <div>
             <label for="name" class="label-form-modal">Name</label>
 
@@ -147,6 +138,8 @@
               minlength="2"
               required
             />
+            <label for="category" class="label-form-modal">Category</label>
+
             <select name="Category" class="select-form">
                 <option value=10 selected="selected">10%</option>
                 <option value=20>20%</option>
@@ -164,16 +157,16 @@
               class="input-form-modal"
               required
             />
-            <label for="min" class="label-form-modal">Min</label>
+        
+            <label for="down payment" class="label-form-modal">Down payment %</label>
 
-            <input
-              type="number"
-              name="min"
-              id="min"
-              value="100000"
-              class="input-form-modal"
-              disabled
-            />
+            <select name="down" class="select-form">
+              <option value="10" selected="selected">10%</option>
+              <option value="20">20%</option>
+              <option value="30">30%</option>
+              <option value="40">40%</option>
+            </select>
+
             <label for="mounth" class="label-form-modal">Credit Term</label>
 
             <select name="mounth" class="select-form">
@@ -182,12 +175,30 @@
               <option value="10">10</option>
               <option value="12">12</option>
               <option value="24">24</option>
-  
             </select>
-          <button type="submit" class="modal-send1">Change Note</button>
+        </div>
+        <button type="submit" class="modal-send1">Change Note</button>
+
         </form>
-      </div>
     </div>
+    </div>
+    <table class="transaction__history table-result">
+      <thead class="trans_head">
+        <tr>
+          <th><select name="bank"  class="sel">
+            <option value='Select Bank' disabled  selected="selected">Select Bank</option>
+          </select></th>
+          <th>Initial loan</th>
+          <th>Down payment</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody class="row-list"><tr class="cell"><td></td>
+        <td><input type="number"/></td><td><input type="number"></td>
+        <td></td>
+      </tr> 
+    </table>
+    <button type='button' class='resBtn btn'>Result</button></tbody>
     <script src="index.js" type="module"></script>
   </body>
 </html>
