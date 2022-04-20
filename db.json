@@ -29,16 +29,6 @@
       "date": "10",
       "isActive": true,
       "id": 12
-    },
-    {
-      "name": "OchadBank",
-      "createDate": "Wed Apr 20 2022",
-      "category": "20",
-      "max": "100000",
-      "min": "10",
-      "date": "6",
-      "isActive": true,
-      "id": 14
     }
   ]
 }

@@ -1,4 +1,4 @@
-const baseUrl = `http://localhost:3000/tasks`;
+const baseUrl = `https://my-json-server.typicode.com/AnatoliyDanets/banking/tasks`;
 async function getNotes() {
   const res = await fetch(baseUrl);
   const task = await res.json();
