@@ -1,8 +1,8 @@
 {
   "tasks": [
     {
-      "name": "Privat",
-      "createDate": "Wed Apr 20 2022",
+      "name": "PrivatBank",
+      "createDate": "Thu Apr 21 2022",
       "category": "20",
       "max": "200000",
       "min": "30",
@@ -21,14 +21,14 @@
       "id": 11
     },
     {
-      "name": "UkrsibBank",
-      "createDate": "Tue Apr 19 2022",
-      "category": "10",
-      "max": "100000",
+      "name": "MegaBank",
+      "createDate": "Thu Apr 21 2022",
+      "category": "20",
+      "max": "400000",
       "min": "10",
-      "date": "10",
+      "date": "24",
       "isActive": true,
-      "id": 12
+      "id": 13
     }
   ]
 }

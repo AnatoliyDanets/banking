@@ -9,4 +9,5 @@
 7)Запустить  json-server  в терминале(команда json-server --watch db.json)
 8) Запустить Live Server
 9) Вроде всё
+10) Если не получится запустить вот видео: <a href='https://drive.google.com/file/d/1BZqDRk_OF4HCA1t_bOsLE50rpCxpSe4P/view?usp=sharing'>Banking</a>
 P.S  не получилось захостить , чтоб заработал сервер, только локально можно проверить(
